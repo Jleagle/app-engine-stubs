@@ -1,0 +1,22 @@
+{
+  "name": "jleagle/app-engine-stubs",
+  "keywords": [
+    "appengine",
+    "app",
+    "engine",
+    "stubs"
+  ],
+  "description": "App Engine stubs for your IDE.",
+  "authors": [
+    {
+      "name": "James Eagle",
+      "email": "jimeagle@gmail.com",
+      "homepage": "http://jimeagle.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "google\\appengine\\api\\": "src/"
+    }
+  }
+}
