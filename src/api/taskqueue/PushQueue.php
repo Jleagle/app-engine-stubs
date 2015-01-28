@@ -25,7 +25,10 @@ class PushQueue
    *
    * @param PushTask[] $tasks
    *
-   * @return \google\appengine\api\taskqueue\An
+   * @return array
+   *
+   * @throws TaskAlreadyExistsException
+   * @throws TaskQueueException
    */
   public function addTasks(array $tasks)
   {
