@@ -16,7 +16,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "google\\appengine\\api\\": "src/"
+      "google\\appengine\\": "src/"
     }
   }
 }
