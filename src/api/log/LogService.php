@@ -13,7 +13,7 @@ class LogService
   /**
    * @param array $options
    */
-  public function fetch(array $options = [])
+  public static function fetch(array $options = [])
   {
   }
 
@@ -23,7 +23,7 @@ class LogService
    *
    * @return RequestLog[]
    */
-  public function fetchById($request_ids, $include_app_logs = true)
+  public static function fetchById($request_ids, $include_app_logs = true)
   {
   }
 
@@ -32,7 +32,7 @@ class LogService
    *
    * @return int
    */
-  public function getAppEngineLogLevel($syslog_level)
+  public static function getAppEngineLogLevel($syslog_level)
   {
   }
 }

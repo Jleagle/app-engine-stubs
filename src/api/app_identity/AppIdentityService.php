@@ -16,21 +16,21 @@ class AppIdentityService
    * @throws \InvalidArgumentException
    * @throws AppIdentityException
    */
-  public function getAccessToken(array $scopes)
+  public static function getAccessToken(array $scopes)
   {
   }
 
   /**
    * @return string
    */
-  public function getApplicationId()
+  public static function getApplicationId()
   {
   }
 
   /**
    * @return string
    */
-  public function getDefaultVersionHostname()
+  public static function getDefaultVersionHostname()
   {
   }
 
@@ -39,7 +39,7 @@ class AppIdentityService
    *
    * @throws AppIdentityException
    */
-  public function getPublicCertificates()
+  public static function getPublicCertificates()
   {
   }
 
@@ -48,7 +48,7 @@ class AppIdentityService
    *
    * @throws AppIdentityException
    */
-  public function getServiceAccountName()
+  public static function getServiceAccountName()
   {
   }
 
@@ -60,7 +60,7 @@ class AppIdentityService
    * @throws \InvalidArgumentException
    * @throws AppIdentityException
    */
-  public function signForApp($bytes_to_sign)
+  public static function signForApp($bytes_to_sign)
   {
   }
 }
