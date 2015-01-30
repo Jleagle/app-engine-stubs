@@ -9,7 +9,7 @@ class ApiCallArguments
    * @param $req
    * @param $resp
    */
-  public function __construct($package,  $call_name,  $req,  $resp)
+  public function __construct($package, $call_name, $req, $resp)
   {
   }
 

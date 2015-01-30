@@ -70,5 +70,4 @@ class PushTask
   public function getUrl()
   {
   }
-
 }

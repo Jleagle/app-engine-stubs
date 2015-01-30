@@ -14,7 +14,9 @@ class RealApiProxy extends ApiProxyBase
    *
    * @return void
    */
-  public function makeSyncCall($package, $call_name, $request, $response, $deadline = null)
+  public function makeSyncCall(
+    $package, $call_name, $request, $response, $deadline = null
+  )
   {
   }
 }

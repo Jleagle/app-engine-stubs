@@ -34,7 +34,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function dir_opendir($path,  $options)
+  public function dir_opendir($path, $options)
   {
   }
 
@@ -71,7 +71,7 @@ class CloudStorageStreamWrapper
    * @param $mode
    * @param $options
    */
-  public function mkdir($path,  $mode,  $options)
+  public function mkdir($path, $mode, $options)
   {
   }
 
@@ -81,7 +81,7 @@ class CloudStorageStreamWrapper
    *
    * @return bool
    */
-  public function rename($from,  $to)
+  public function rename($from, $to)
   {
   }
 
@@ -91,7 +91,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function rmdir($path,  $options)
+  public function rmdir($path, $options)
   {
   }
 
@@ -130,7 +130,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function stream_metadata($path,  $option,  $value)
+  public function stream_metadata($path, $option, $value)
   {
   }
 
@@ -142,7 +142,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function stream_open($path,  $mode,  $options,  $opened_path)
+  public function stream_open($path, $mode, $options, $opened_path)
   {
   }
 
@@ -161,7 +161,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function stream_seek($offset,  $whence)
+  public function stream_seek($offset, $whence)
   {
   }
 
@@ -172,7 +172,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function stream_set_option($option,  $arg1,  $arg2)
+  public function stream_set_option($option, $arg1, $arg2)
   {
   }
 
@@ -214,7 +214,7 @@ class CloudStorageStreamWrapper
    *
    * @return void
    */
-  public function url_stat($path,  $flags)
+  public function url_stat($path, $flags)
   {
   }
 }

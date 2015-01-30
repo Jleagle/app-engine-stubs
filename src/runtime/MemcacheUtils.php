@@ -18,7 +18,7 @@ class MemcacheUtils
    *
    * @return void
    */
-  public static function deserializeValue($value,  $flag)
+  public static function deserializeValue($value, $flag)
   {
   }
 
@@ -28,7 +28,7 @@ class MemcacheUtils
    *
    * @return void
    */
-  public static function serializeValue($value,  $flag)
+  public static function serializeValue($value, $flag)
   {
   }
 
@@ -39,7 +39,7 @@ class MemcacheUtils
    *
    * @return void
    */
-  public static function setMultiWithPolicy($keyValues,  $expire,  $policy)
+  public static function setMultiWithPolicy($keyValues, $expire, $policy)
   {
   }
 }

@@ -10,9 +10,10 @@ class ApiProxy
    * @param string $response
    * @param double $deadline
    */
-  public static function makeSyncCall($package, $call_name, $request, $response, $deadline = null)
+  public static function makeSyncCall(
+    $package, $call_name, $request, $response, $deadline = null
+  )
   {
-
   }
 
   /**
@@ -20,6 +21,5 @@ class ApiProxy
    */
   public static function setApiProxy($apiProxy)
   {
-
   }
 }

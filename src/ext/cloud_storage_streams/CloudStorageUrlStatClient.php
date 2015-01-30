@@ -11,7 +11,7 @@ class CloudStorageUrlStatClient extends CloudStorageClient
    * @param resource $context
    * @param          $flags
    */
-  public function __construct($bucket, $object, $context,  $flags)
+  public function __construct($bucket, $object, $context, $flags)
   {
   }
 

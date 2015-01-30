@@ -40,7 +40,9 @@ class ModulesService
    *
    * @return string
    */
-  public static function getHostname($module = null, $version = null, $instance = null)
+  public static function getHostname(
+    $module = null, $version = null, $instance = null
+  )
   {
   }
 
@@ -77,7 +79,9 @@ class ModulesService
    *
    * @return void
    */
-  public static function setNumInstances($instances, $module = null, $version = null)
+  public static function setNumInstances(
+    $instances, $module = null, $version = null
+  )
   {
   }
 

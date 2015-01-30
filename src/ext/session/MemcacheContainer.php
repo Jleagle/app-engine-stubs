@@ -45,5 +45,4 @@ class MemcacheContainer
   public function set($key, $value, $expire)
   {
   }
-
 }

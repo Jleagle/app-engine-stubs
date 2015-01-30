@@ -74,6 +74,4 @@ class CloudStorageReadClient extends CloudStorageClient
   public function tell()
   {
   }
-
-
 }

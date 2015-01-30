@@ -23,6 +23,5 @@ class PublicCertificate
    */
   public function getX509CertificateInPemFormat()
   {
-
   }
 }
