@@ -1,13 +1,13 @@
 # app-engine-stubs
 
-A package to stop IDE errors and help with code hinting while working on Google App Engine.
+A package to stop IDE errors and help with code hinting while working on Google App Engine projects.
 
 ![IDE](http://i.imgur.com/PTHs0gD.png)
 
-### Installation
+### Installation with Composer
 
 ```json
 "require-dev": {
-	"jleagle/app-engine-stubs": "dev-master"
+	"jleagle/app-engine-stubs": "*"
 },
 ```
