@@ -1,12 +1,15 @@
 {
   "name": "jleagle/app-engine-stubs",
   "keywords": [
+    "google",
     "appengine",
     "app",
     "engine",
+    "sdk",
     "stubs"
   ],
   "description": "App Engine stubs for your IDE.",
+  "license": "MIT",
   "authors": [
     {
       "name": "James Eagle",
